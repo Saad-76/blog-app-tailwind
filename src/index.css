@@ -1,0 +1,538 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: 'Inter', sans-serif;
+}
+
+.App {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+#root {
+  background: #000;
+}
+
+p{
+  color:#D0D5DD;
+}
+
+.dark-gray{
+  color:#98A2B3
+}
+.near-black{
+  background: #16191A;
+}
+.text-green{
+  color: #61FF76;
+}
+.font-gray{
+  color:#D0D5DD
+}
+
+.light-green{
+  color: #E1F2E4;
+}
+.feature-txt-color{
+  color:#A0ACA2
+}
+.border-first{
+  border: 2px solid #344054;
+}
+.border-second{
+  border: 1px solid #344054;
+}
+.preview-card-border{
+  border: 1px solid #1D2939;
+}
+.preview-card-border:hover{
+  background-color: #16191A;
+}
+.border-radius-100{
+  border-radius: 100px;
+
+}
+.bg-black-dark{
+  background: #1D2939;
+}
+
+.btn-green{
+  background: #0D3614;
+}
+
+.blog-detail-arrow{
+  position: absolute;
+  bottom: 28px;
+  left: -130px;
+}
+
+.login-background-img {
+  background-image: url("./assets/mask.png");
+  background-color: #16191D;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.text-ligh-green {
+  color: #98C5A0;
+}
+
+.custom-pagination .previous {
+  color: #fff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 50px
+}
+
+.comprison-row{
+  background: linear-gradient(to right, #62FE76, #0BA5EC);
+
+}
+
+.custom-pagination .next {
+  color: #fff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 50px
+}
+
+.comprison-row-icon{
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-20px,-24px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(252, 254, 252, 0.3);
+}
+
+.btn {
+  padding: 12px 30px;
+  border: none;
+  outline: none;
+  position: relative;
+  z-index: 1;
+  border-radius: 8px;
+  background: linear-gradient(to right, #62FE76, #0BA5EC);
+  cursor: pointer;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  border-radius: 8px;
+  background-color: #16191A;
+  z-index: -1;
+  transition: 200ms
+}
+.btn::after {
+  content: attr(data);
+  font-size: 16px;
+  background: linear-gradient(to left, #62FE76, #0BA5EC);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: 200ms
+}
+.btn:hover::before {
+  opacity: 50%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.btn:hover::after{
+  color: white;
+}
+
+
+.line-height-90{
+  line-height: 90px !important
+}
+
+
+/* ---------------------- */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: "Inter", sans-serif;
+}
+
+.App {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+#root {
+  background: #000;
+}
+
+p {
+  color: #d0d5dd;
+}
+
+.dark-gray {
+  color: #98a2b3;
+}
+.text-green {
+  color: #61ff76;
+}
+.font-gray {
+  color: #d0d5dd;
+}
+
+.light-green {
+  color: #e1f2e4;
+}
+.border-first {
+  border: 2px solid #344054;
+}
+.border-radius-100 {
+  border-radius: 100px;
+}
+.bg-black-dark {
+  background: #1d2939;
+}
+.business-card-active {
+  background: rgba(16, 24, 40, 0.5);
+}
+.btn-green {
+  background: #0d3614;
+}
+.btn-business {
+  background: #296b32;
+}
+
+.pricing-btn-color {
+  color: #ceffd5;
+}
+
+.pricing-border {
+  border: 1px solid #ceffd5;
+}
+
+.login-background-img {
+  background-image: url("./assets/mask.png");
+  background-color: #16191d;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.text-ligh-green {
+  color: #98c5a0;
+}
+
+.custom-pagination .previous {
+  color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 50px;
+}
+
+.custom-pagination .next {
+  color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 50px;
+}
+
+
+
+p {
+  color: #d0d5dd;
+}
+
+.dark-gray {
+  color: #98a2b3;
+}
+.near-black {
+  background: #16191a;
+}
+.text-green {
+  color: #61ff76;
+}
+.font-gray {
+  color: #d0d5dd;
+}
+
+.light-green {
+  color: #e1f2e4;
+}
+.border-first {
+  border: 2px solid #344054;
+}
+.border-second {
+  border: 1px solid #344054;
+}
+.preview-card-border {
+  border: 1px solid #1d2939;
+}
+.border-radius-100 {
+  border-radius: 100px;
+}
+.bg-black-dark {
+  background: #1d2939;
+}
+.drk-gray{
+  color: #344054;
+}
+.drk-gray2{
+  color: #667085;
+}
+.btn-green {
+  background: #0d3614;
+}
+.pricing-chat-clr{
+  color: #F1F9F3;
+}
+.review-card-back{
+  background: #353434;
+
+}
+
+.light-white{
+  color: #FCFCFD;
+}
+
+.line-height-72{
+  line-height: 72px!important;
+}
+
+.line-height-44{
+  line-height: 44px!important;
+}
+/* ---------------------- */
+
+
+
+
+@media screen and (max-width: 1020px) {
+  .line-height-90{
+    line-height: 56px !important
+  }
+}
+@media screen and (max-width: 768px) {
+  .line-height-90{
+    line-height: 44px !important
+  }
+}
+@media screen and (max-width: 640px) {
+  .line-height-90{
+    line-height: 36px !important
+  }
+  .line-height-72{
+    line-height: 40px!important;
+  }
+  .line-height-44{
+    line-height: 30px!important;
+  }
+}
+
+/*  */
+
+.nav {
+  height: 80px;
+  width: 100%;
+  background-color: #000;
+  position: relative;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav > .nav-header {
+  display: inline;
+  align-items: center;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  /* float: right; */
+  font-size: 18px;
+}
+
+.nav > .nav-links1 {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: #0E0F11;
+  border-radius: 10px;
+}
+
+.nav > .nav-links1 > a:hover {
+  background-color: #0E0F11;
+  border-radius: 10px;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+.nav > .nav-links1 {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links1  {
+  display: flex;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+}
+.nav > .nav-links > .lang {
+  display: none;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+}
+.nav > .nav-links > .sign {
+  display: none;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+.nav > .nav-links1 > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+.logo-sm{
+  display: none!important;
+}
+
+.nav-btn{
+  margin-top: 14px;
+}
+
+@media (max-width:768px) {
+  .nav > .nav-links1{
+    display: none;
+  }
+  .logo-lg{
+    display: none!important;
+  }
+  .logo-sm{
+    display: block!important;
+  }
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: #000
+  }
+
+  .nav > .nav-links > .lang {
+    display: block;
+  }
+  .nav > .nav-links > .sign {
+    display: block;
+  }
+
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #000;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
